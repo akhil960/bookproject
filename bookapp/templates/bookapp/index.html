@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<td><a href="{%url 'list'%}" >View</a></td>
+<td><a href="{%url 'createbook'%}" >View</a></td>
+{%csrf_token%}
+{{form.as_p}}
+
+</body>
+</html>
